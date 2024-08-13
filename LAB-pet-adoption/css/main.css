@@ -1,0 +1,65 @@
+
+.card {
+    max-width: 200px;
+    min-width: 200px;
+    gap: 10px;
+
+
+}
+
+.btn-wrapper {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    
+}
+
+button {
+    padding: 10px 60px;
+    border: none;
+    color: azure;
+    border-radius: 10%;
+    box-shadow: 0 0 4px black;
+    text-shadow: 6px;
+
+
+}
+
+.btn-danger {
+    width: 30%;
+    align-self: end;
+
+}
+
+
+.container {
+    flex-direction: row;
+    grid-template-columns: (1fr, 1fr, 1fr);
+    grid-template-rows:(1fr,1fr,1fr) ;
+    grid-gap: 10px;
+   
+
+      
+  }
+  
+ 
+  .card {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+
+  .packagerow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mb-3{
+    align-items: center;
+    display: block;
+  }
